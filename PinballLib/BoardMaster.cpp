@@ -23,7 +23,7 @@
 #include "BoardMaster.h"
 
 //-------------------------------------------------------//
-BoardMaster::BoardMaster(PinballSerial *pinballSerial,PinballSound *pinballSound):Pinball(pinballSerial,pinballSound)
+BoardMaster::BoardMaster(PinballSerial *pinballSerial,PinballSound *pinballSound):Pinball(pinballSerial,pinballSound,true)
 //-------------------------------------------------------//
 {
 

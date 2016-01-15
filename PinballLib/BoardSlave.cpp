@@ -24,7 +24,7 @@
 
 
 //-------------------------------------------------------//
-BoardSlave::BoardSlave(PinballSerial *pinballSerial,PinballSound *pinballSound):Pinball(pinballSerial,pinballSound)
+BoardSlave::BoardSlave(PinballSerial *pinballSerial,PinballSound *pinballSound):Pinball(pinballSerial,pinballSound,true)
 //-------------------------------------------------------//
 {
 }
